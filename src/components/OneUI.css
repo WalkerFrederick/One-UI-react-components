@@ -1,0 +1,52 @@
+:root {
+    --GradientRed: linear-gradient(45deg,#f85032, #e73827);
+    --GradientPink: linear-gradient(45deg,#ee9ca7, #ffdde1);
+    --GradientBlue: linear-gradient(45deg,rgb(0, 153, 230), rgb(102, 204, 255));
+    --GradientGreen: linear-gradient(45deg,#56ab2f, #a8e063);
+    --GradientPurple: linear-gradient(45deg,#b24592, #f15f79);
+    --GradientOrange: linear-gradient(45deg, #ff7e5f, #feb47b);
+
+}
+
+
+/* Gradient Classes you can use throughout your app */
+
+.GradientRed {
+     background-image: var(--GradientRed);
+     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(231, 56, 39, .9);
+ }
+.GradientPink {
+    background-image: var(--GradientPink);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(255, 221, 225, .9);
+}
+.GradientBlue {
+    background-image: var(--GradientBlue);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(102, 204, 255, .9);
+}
+.GradientGreen {
+    background-image: var(--GradientGreen);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(168, 224, 99, .9);
+}
+.GradientPurple {
+    background-image: var(--GradientPurple);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(241, 95, 121, .9);
+}
+.GradientOrange {
+    background-image: var(--GradientOrange);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(254, 180, 123, .9);
+}
+
+/* ON GRADIENT BUTTON ACTIVE */
+
+.GradientRed:active{
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(231, 56, 39, .1);}
+.GradientPink:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 221, 225, .1);}
+.GradientBlue:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(102, 204, 255, .1);}
+.GradientGreen:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(168, 224, 99, .1);}
+.GradientPurple:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(241, 95, 121, .1);}
+.GradientOrange:active {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(254, 180, 123, .1);}

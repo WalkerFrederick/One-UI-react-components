@@ -1,0 +1,10 @@
+.OneButton {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 400;
+    border-radius: 3px;
+    text-transform: capitalize;
+}

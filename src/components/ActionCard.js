@@ -1,4 +1,5 @@
 import React from 'react';
+import OneButton from './OneButton/OneButton'
 import './ActionCard.css'
 
 
@@ -17,10 +18,17 @@ class ActionCard extends React.Component {
     render (){
         return (
             <div className='actioncard'>
-                <h1 className='headline'>{this.state.headline}</h1>
-                <span className='horizontalLine'/>
-                <p className='body'>{this.state.body}</p>
-                <button className='actionbutton'>{this.state.buttonText}</button>
+                <OneButton name={'RED BUTTON'} color={'GradientRed'}/>
+                <p></p>
+                <OneButton name={'BLUE BUTTON'} color={'GradientBlue'}/>
+                <p></p>
+                <OneButton name={'PINK BUTTON'} color={'GradientPink'}/>
+                <p></p>
+                <OneButton name={'GREEN BUTTON'} color={'GradientGreen'}/>
+                <p></p>
+                <OneButton name={'PURPLE BUTTON'} color={'GradientPurple'}/>
+                <p></p>
+                <OneButton name={'ORANGE BUTTON'} color={'GradientOrange'}/>
             </div>
         )
     }
